@@ -21,11 +21,12 @@ public class Soal02 {
 
 	private static String kelulusan(double tahun, double ipk, int eprt, String hki, String lomba) {
 		String cumlaude;
-		
-			if (tahun >= 3.0 && ipk >= 3.5 && eprt >= 450 && hki == "ada" && lomba == "ada") {
+			if (eprt >= 470 && hki == "tidak") {
+				cumlaude = "Cumlaude";
+			}else if (tahun >= 3.0 && ipk >= 3.5 && eprt >= 450 && hki == "ada" && lomba == "ada") {
 				cumlaude = "Cumlaude";
 			} else {
-				cumlaude = "Tidak cumlaude";
+				cumlaude = "Tidak Cumlaude";
 			}
 		return cumlaude;
 	}	
