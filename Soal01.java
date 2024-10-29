@@ -30,7 +30,7 @@ public class Soal01 {
 		if (ratusan < puluhan && satuan % 2 != 0) {
 			nilai = "valid";
 		} else {
-			nilai = "tidak valid ";
+			nilai = "tidak valid";
 		}
 		return nilai;
 	}
