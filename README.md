@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: 
+Nama: Masefal Anjesa Loja
 
-NIM : 
+NIM : 607062400046
 
 ## Instruksi
 
