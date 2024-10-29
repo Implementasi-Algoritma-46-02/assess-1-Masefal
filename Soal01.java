@@ -12,11 +12,11 @@ public class Soal01 {
 		int bil4 = Integer.parseInt(Split[3]);
 		int bil5 = Integer.parseInt(Split[4]);
 
-		System.out.println(bil1 + " " + validasi(bil1));
-		System.out.println(bil2 + " " + validasi(bil2));
-		System.out.println(bil3 + " " + validasi(bil3));
-		System.out.println(bil4 + " " + validasi(bil4));
-		System.out.println(bil5 + " " + validasi(bil5));
+		System.out.println(bil1 + "\n" + validasi(bil1));
+		System.out.println(bil2 + "\n" + validasi(bil2));
+		System.out.println(bil3 + "\n" + validasi(bil3));
+		System.out.println(bil4 + "\n" + validasi(bil4));
+		System.out.println(bil5 + "\n" + validasi(bil5));
 		input.close();
 	}
 	private static String validasi(int bilangan) {
